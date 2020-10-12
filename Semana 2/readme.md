@@ -1,4 +1,4 @@
-## Exercício 1: AreaPerimetro.py
+## [Exercício 1][]
 
 Faça um programa em Python que receba (entrada de dados) o valor correspondente ao lado de um quadrado, calcule e imprima (saída de dados) seu perímetro e sua área.  
 
@@ -19,7 +19,7 @@ perímetro: 12 - área: 9
 ```
 
 
-## Exercício 2: Media.py
+## [Exercício 2][]
 
 Faça um programa em Python que receba quatro notas, calcule e imprima a média aritmética. Observe o exemplo abaixo:
 
@@ -36,8 +36,8 @@ Digite a terceira nota: 6
 Digite a quarta nota: 7
 ```
 
+- Saída de Dados:
 ```
-Saída de Dados:
 A média aritmética é 5.5
 ```
 
@@ -45,7 +45,7 @@ A média aritmética é 5.5
 ---
 
 
-## Exercício adicional 1: Fatura.py
+## [Exercício adicional 1][]
 
 Uma empresa de cartão de crédito envia suas faturas por email com a seguinte mensagem:
 ```
@@ -73,7 +73,7 @@ A sua fatura com vencimento em 9 de Janeiro no valor de R$ 350,00 está fechada.
 ```
 
 
-## Exercício adicional 2: ConversorDeSegundos.py
+## [Exercício adicional 2][]
 
 Reescreva o programa **ContaSegundos.py** para imprimir também a quantidade de dias, ou seja, faça um programa em Python que, dada a quantidade de segundos, "quebre" esse valor em dias, horas, minutos e segundos. A saída deve estar no formato: a dias, b horas, c minutos e d segundos. Seja cuidadoso com o formato! Espaços a mais, vírgulas faltando ou outras diferenças são considerados erro
 
@@ -92,7 +92,7 @@ Por favor, entre com o número de segundos que deseja converter: 178615
 ```
 
 
-## Exercício adicional 3: DigitoDaDezena.py
+## [Exercício adicional 3][]
 
 Faça um programa em Python que recebe um número inteiro e imprime seu dígito das dezenas. Observe o exemplo abaixo:
 
@@ -115,8 +115,15 @@ Exemplo 2:
 Digite um número inteiro: 2
 ```
 
-
-Saída de Dados:
+- Saída de Dados:
 ```
 O dígito das dezenas é 0
 ```
+
+
+
+[Exercício 1]: AreaPerimetro.py
+[Exercício 2]: Media.py
+[Exercício adicional 1]: Fatura.py
+[Exercício adicional 2]: ConversorDeSegundos.py
+[Exercício adicional 3]: DigitoDaDezena.py
