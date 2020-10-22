@@ -2,7 +2,7 @@
 
 Faça um programa em Python que receba (entrada de dados) o valor correspondente ao lado de um quadrado, calcule e imprima (saída de dados) seu perímetro e sua área.  
 
-Observação: a saída deve estar no formato: "perímetro: x - área: y".
+Observação: a saída deve estar no formato: "**perímetro: x - área: y**".
 
 Abaixo um exemplo de como deve ser a entrada e saída de dados do programa:  
 
@@ -75,7 +75,7 @@ A sua fatura com vencimento em 9 de Janeiro no valor de R$ 350,00 está fechada.
 
 ## [Exercício adicional 2][]
 
-Reescreva o programa **ContaSegundos.py** para imprimir também a quantidade de dias, ou seja, faça um programa em Python que, dada a quantidade de segundos, "quebre" esse valor em dias, horas, minutos e segundos. A saída deve estar no formato: a dias, b horas, c minutos e d segundos. Seja cuidadoso com o formato! Espaços a mais, vírgulas faltando ou outras diferenças são considerados erro
+Reescreva o programa **ContaSegundos.py** para imprimir também a quantidade de dias, ou seja, faça um programa em Python que, dada a quantidade de segundos, "quebre" esse valor em dias, horas, minutos e segundos. A saída deve estar no formato: **a dias, b horas, c minutos e d segundos**.
 
 Abaixo um exemplo de como deve ser a entrada e saída de dados do programa:
 
