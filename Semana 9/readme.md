@@ -35,26 +35,26 @@ A partir da assinatura conhecida de um portador de COH-PIAH, seu programa dever�
 
 Após calcular esses valores para cada texto, você deve compará-los com a assinatura fornecida para os infectados por COH-PIAH. O grau de similaridade entre dois textos, *a* e *b*, é dado pela fórmula:
 
-
+![Fórmula](https://latex.codecogs.com/svg.latex?S_%7Bab%7D%20%3D%20%5Cfrac%7B%5Csum_%7Bi%3D1%7D%5E6%20%7C%7C%20f_%7Bi%2Ca%7D%20-%20f_%7Bi%2Cb%7D%20%7C%7C%7D%7B6%7D)
 
 Onde:
-- é o grau de similaridade entre os textos *a* e *b*;
-- é o valor de cada traço linguístico *i* no texto *a*;
-- é o valor de cada traço linguístico *i* no texto *b*.
+- ![S_{ab}](https://latex.codecogs.com/svg.latex?S_%7Bab%7D) é o grau de similaridade entre os textos ***a*** e ***b***;
+- ![f_{i,a}](https://latex.codecogs.com/svg.latex?f_%7Bi%2Ca%7D) é o valor de cada traço linguístico *i* no texto ***a***;
+- ![f_{i,b}](https://latex.codecogs.com/svg.latex?f_%7Bi%2Cb%7D) é o valor de cada traço linguístico *i* no texto ***b***.
 
 No nosso caso, o texto *b* não é conhecido, mas temos a assinatura correspondente: a assinatura de um aluno infectado com COH-PIAH. Ou seja, sabemos o valor de que é dado como valor de entrada do programa.
 
 Caso você não esteja acostumado com a notação matemática, podemos destrinchar essa fórmula da seguinte maneira:
 
-Para cada traço linguístico *i* (tamanho médio da palavra, relação type-token etc.) se quer a diferença entre o valor obtido em cada texto dado (aa) e o valor típico do texto de uma pessoa infectada (*b*): 
+Para cada traço linguístico *i* (tamanho médio da palavra, relação type-token etc.) se quer a diferença entre o valor obtido em cada texto dado (*a*) e o valor típico do texto de uma pessoa infectada (*b*): ![f_{i, a} - f_{i, b}](https://latex.codecogs.com/svg.latex?f_%7Bi%2C%20a%7D%20-%20f_%7Bi%2C%20b%7D)
 
 Dessa diferença se toma o módulo (|| ... ||), lembre-se da função *abs* do python.
 
-Somamos os resultados dos 6 traços linguísticos 
+Somamos os resultados dos 6 traços linguísticos ( ![\sum_{i=1}^6](https://latex.codecogs.com/svg.latex?%5Ctiny%20%5Csum_%7Bi%3D1%7D%5E6) )
 
-E por final dividimos por 6 ()
+E por final dividimos por 6 (![\frac{x}{6}](https://latex.codecogs.com/svg.latex?%5Ctiny%20%5Cfrac%7Bx%7D%7B6%7D))
 
-Perceba que quanto mais similares *a* e *b* forem, menor será. Para cada texto, você deve calcular o grau de similaridade com a assinatura do portador de COH-PIAH e, no final, exibir qual texto mais provavelmente foi escrito por algum aluno infectado (ou seja, o texto com assinatura mais similar à assinatura dada).
+Perceba que quanto mais similares *a* e *b* forem, menor ![S_{ab}](https://latex.codecogs.com/svg.latex?S_%7Bab%7D) será. Para cada texto, você deve calcular o grau de similaridade com a assinatura do portador de COH-PIAH e, no final, exibir qual texto mais provavelmente foi escrito por algum aluno infectado (ou seja, o texto com assinatura mais similar à assinatura dada).
 
 Exemplo:
 ```
